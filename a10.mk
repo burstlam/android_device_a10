@@ -47,6 +47,10 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
 	packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml \
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    device/allwinner/a10/prebuilt/app/RootExplorer.apk:system/app/RootExplorer.apk
+
 # Other stuff
 PRODUCT_PACKAGES += librs_jni rild_sun4i power.sun4i
 
